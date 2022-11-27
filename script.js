@@ -4,9 +4,13 @@
 // console.log(min(0, -10)); // will output -10
 
 function lowerNumb(num1, num2) {
-
-    if (num1 > num2)
-
+    let result = 0;
+    if (num1 >= num2) {
+        result += num1;
+    }
+    else {
+        
+    }
 }
 
 // 2. Write a function that takes the radius of a circle and outputs it’s approximate circumference (the formula for circumference is 2 *pi * radius, you may use 3.14 for pi).
