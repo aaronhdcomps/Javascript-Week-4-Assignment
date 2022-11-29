@@ -32,4 +32,15 @@ console.log(calculateCircumference(8))
 // console.log(searchString(“s”, “mississippi”)); // will output 4
 // console.log(searchString(“q”, “mississippi”)); // will output 0
 
-function searchString
+function searchString(letter, str) {
+ let letter_Count = 0;
+ for (let position = 0; position < str.length; position++) 
+ {
+    if (str.charAt(position) == letter) 
+      {
+      letter_Count += 1;
+      }
+  }
+  return letter_Count;
+}
+console.log(searchString("p", "mississippi"))
